@@ -40,3 +40,53 @@ lib/
 - Provider / Riverpod для управління станом
 - Flutter WidgetKit для iOS віджета
 - Git + GitHub для спільної роботи
+
+## Як почати
+
+1. Клонувати репозиторій:
+```bash
+git clone https://github.com/<твій-нік>/student-diary.git
+Встановити Flutter пакети:
+
+flutter pub get
+Запустити проєкт:
+
+flutter run
+План розвитку
+ Базова структура проєкту
+
+ CRUD для розкладу
+
+ CRUD для нотаток
+
+ Теми (світла/темна)
+
+ Push notifications
+
+ iOS Widget
+
+
+---
+
+## 4️⃣ Наступні кроки для GitHub
+
+1. Створити репозиторій `student-diary`.
+2. Додати `README.md` з текстом вище.
+3. Додати `.gitignore` для Flutter:
+
+build/
+.dart_tool/
+.packages
+.idea/
+.vscode/
+
+
+4. Ініціалізувати репозиторій:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit: setup project structure and README"
+git branch -M main
+git remote add origin https://github.com/<твій-нік>/student-diary.git
+git push -u origin main
